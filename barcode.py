@@ -6,8 +6,9 @@ import urllib.parse
 import os
 
 # Replace with your Telegram Bot API token and chat ID
-TELEGRAM_API_TOKEN = '7423640911:AAGWNGYsxcsJaSE37FToljrcxN-UF0FgMYs'
-CHAT_ID = '6332040826'
+TELEGRAM_API_TOKEN = 'Your_Bot-Token'
+# you can get user id in https://t.me/getmyid_bot
+CHAT_ID = 'Your_User_Id'
 SEARCH_ENGINE_URL = 'https://www.google.com/search?hl=en&tbm=isch&q='
 
 def send_message_to_telegram(message):
